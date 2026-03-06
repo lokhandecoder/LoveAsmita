@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/LoveAsmita/static/css/main.d436f0d8.css",
+    "main.js": "/LoveAsmita/static/js/main.26231dd2.js",
+    "static/js/453.701a61d5.chunk.js": "/LoveAsmita/static/js/453.701a61d5.chunk.js",
+    "static/media/us.jpg": "/LoveAsmita/static/media/us.b1e86ebae92580361eb3.jpg",
+    "index.html": "/LoveAsmita/index.html",
+    "main.d436f0d8.css.map": "/LoveAsmita/static/css/main.d436f0d8.css.map",
+    "main.26231dd2.js.map": "/LoveAsmita/static/js/main.26231dd2.js.map",
+    "453.701a61d5.chunk.js.map": "/LoveAsmita/static/js/453.701a61d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d436f0d8.css",
+    "static/js/main.26231dd2.js"
+  ]
+}
