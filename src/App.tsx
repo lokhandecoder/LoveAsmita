@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route, HashRouter } from 'react-router-dom';
 import IntroPage from './pages/IntroPage';
 import MessagePage from './pages/MessagePage';
 import ProposalPage from './pages/ProposalPage';
@@ -12,14 +12,14 @@ import "./styles/love-theme.css"
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<IntroPage />} />
         <Route path="/puzzle" element={<PuzzlePage />} />
         <Route path="/message" element={<MessagePage />} />
         <Route path="/proposal" element={<ProposalPage />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
