@@ -1,0 +1,72 @@
+/* Base */
+
+body{
+  font-family: "Poppins", sans-serif;
+}
+
+/* Romantic title */
+
+.love-title{
+  font-size: 42px;
+  font-weight: 700;
+  background: linear-gradient(135deg,#ff4d6d,#ff758c,#ffb199);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 25px;
+}
+
+/* Subtitle / message */
+
+.love-text{
+  font-size: 20px;
+  color: #555;
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.7;
+}
+
+/* Button base */
+
+.love-btn{
+  padding: 14px 38px;
+  font-size: 18px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 30px;
+  transition: all 0.3s ease;
+}
+
+/* Romantic gradient button */
+
+.love-btn-primary{
+  background: linear-gradient(135deg,#ff758c,#ff7eb3);
+  color: white;
+  box-shadow: 0 8px 20px rgba(255,120,150,0.4);
+}
+
+.love-btn-primary:hover{
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 12px 30px rgba(255,120,150,0.5);
+}
+
+/* YES button */
+
+.love-btn-yes{
+  background: linear-gradient(135deg,#4facfe,#00f2fe);
+  color:white;
+}
+
+/* NO button */
+
+.love-btn-no{
+  background: linear-gradient(135deg,#ff4e50,#ff758c);
+  color:white;
+}
+
+/* Button click effect */
+
+.love-btn:active{
+  transform: scale(0.96);
+}

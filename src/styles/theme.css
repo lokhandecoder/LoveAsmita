@@ -1,0 +1,93 @@
+/* Google font */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: radial-gradient(circle at top, #ffdee9, #b5fffc);
+  min-height: 100vh;
+}
+
+/* page layout */
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 120px;
+}
+
+/* glass card */
+
+.card {
+  backdrop-filter: blur(18px);
+  background: rgba(255,255,255,0.35);
+  border-radius: 24px;
+  padding: 50px 60px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+  text-align: center;
+  max-width: 850px;
+  width: 100%;
+}
+
+/* title */
+
+.title {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #2b2b2b;
+}
+
+/* puzzle wrapper */
+
+.puzzle-wrapper {
+  margin: auto;
+  max-width: 600px;
+}
+
+/* modern buttons */
+
+.button {
+  margin-top: 35px;
+  padding: 14px 34px;
+  font-size: 17px;
+  font-weight: 600;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+/* gradient button */
+
+.button-primary {
+  background: linear-gradient(135deg,#ff7eb3,#ff758c);
+  color: white;
+  box-shadow: 0 8px 25px rgba(255,120,140,0.4);
+}
+
+.button-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 35px rgba(255,120,140,0.5);
+}
+
+/* success button */
+
+.button-success {
+  background: linear-gradient(135deg,#4facfe,#00f2fe);
+  color: white;
+}
+
+/* danger button */
+
+.button-danger {
+  background: linear-gradient(135deg,#ff4b2b,#ff416c);
+  color: white;
+}
